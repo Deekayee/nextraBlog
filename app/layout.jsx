@@ -36,13 +36,7 @@ export default async function RootLayout({ children }) {
           {children}
  
           <Footer>
-            <abbr
-              title="This site and all its content are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-              style={{ cursor: 'help' }}
-            >
-              CC BY-NC 4.0
-            </abbr>{' '}
-            {new Date().getFullYear()} © Dimitri POSTOLOV.
+            {new Date().getFullYear()} © Made with Love and Nextra by <a href="https://github.com/Deekayee">Deekayee</a>.
             <a href="/feed.xml" style={{ float: 'right' }}>
               RSS
             </a>
