@@ -1,21 +1,21 @@
-import { Footer, Layout, Navbar, ThemeSwitch } from 'nextra-theme-blog'
-import { Banner, Head, Search } from 'nextra/components'
-import { getPageMap } from 'nextra/page-map'
-import 'nextra-theme-blog/style.css'
- 
+import { Footer, Layout, Navbar, ThemeSwitch } from 'nextra-theme-blog';
+import { Banner, Head, NextraHead, Search } from 'nextra/components';
+import { getPageMap } from 'nextra/page-map';
+import 'nextra-theme-blog/style.css';
+
 export const metadata = {
-  title: 'Blog Example'
-}
- 
+  title: 'Blog Example',
+};
+
 export default async function RootLayout({ children }) {
   const banner = (
-    <Banner storageKey="4.0-release">
+    <Banner storageKey='4.0-release'>
       🎉 Nextra 4.0 is released.{' '}
       <a
-        href="#"
+        href='#'
         style={{
           textDecoration: 'underline',
-          textUnderlinePosition: 'from-font'
+          textUnderlinePosition: 'from-font',
         }}
       >
         Read more →
@@ -32,17 +32,18 @@ export default async function RootLayout({ children }) {
             <Search />
             <ThemeSwitch />
           </Navbar>
- 
+
           {children}
- 
+
           <Footer>
-            {new Date().getFullYear()} © Made with Love and Nextra by <a href="https://github.com/Deekayee">Deekayee</a>.
-            <a href="/feed.xml" style={{ float: 'right' }}>
+            {new Date().getFullYear()} © Made with ❤️ and Nextra by{' '}
+            <a href='https://github.com/Deekayee'>Deekayee</a>.
+            <a href='/feed.xml' style={{ float: 'right' }}>
               RSS
             </a>
           </Footer>
         </Layout>
       </body>
     </html>
-  )
+  );
 }
