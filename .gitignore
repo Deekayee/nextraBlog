@@ -137,3 +137,6 @@ dist
 
 # Search index files
 _pagefind/
+
+# Firebase
+.firebase/
