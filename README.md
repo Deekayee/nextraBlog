@@ -1,13 +1,10 @@
 # 💻 Nextra Blog: Memory Comparison
 
 This is a small research project for a **hardware subject** in my course written in portuguese.  
-Instead of submitting a traditional Word document, I decided to be more creative and build a mini blog site using [**Nextra**](https://nextra.site).
+Instead of submitting a traditional Word documents, I decided to be more creative and build a mini blog site using [**Nextra**](https://nextra.site).
 
 ## 🧠 Topic  
-**Comparing memory components** 
-- DDR4 vs DDR5 
-- HDDs (Hard Disk Drives) vs SATA SSDs vs NVMe SSDs
-- NAS-specific drives (for network storage systems)
+**Comparing pc components** 
 
 The project includes real product examples, performance comparisons, use cases, and practical recommendations.
 
