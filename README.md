@@ -1,4 +1,4 @@
-# 💻 Nextra Blog: Memory Comparison
+# 💻 Nextra Blog: PC Components
 
 This is a small research project for a **hardware subject** in my course written in portuguese.  
 Instead of submitting a traditional Word documents, I decided to be more creative and build a mini blog site using [**Nextra**](https://nextra.site).
